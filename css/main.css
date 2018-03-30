@@ -70,7 +70,12 @@ span.color {
 
 body > section,
 .footer {
-	padding: 70px 0;
+	padding: 20px 0;
+}
+
+#mobile_sidenote {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .sec-title {}
@@ -83,7 +88,7 @@ body > section,
 }
 
 .sec-sub-title {
-	margin: 35px 0 45px;
+	margin: 35px 0 25px;
 }
 
 .sec-sub-title p {
@@ -192,50 +197,74 @@ body > section,
 #slider .carousel-inner .item {
   background-size: cover;
 }
-@media only screen and (min-width: 600px){
+/*@media only screen and (min-width: 600px){
     background-image: img/screens.png;
 
+}*/
+
+.carousel-caption {
+  display: none;
 }
 
 @media only screen and (min-width: 600px){
 
-
-
-
-.carousel-caption {
-  top: 50%;
-  margin-left: 200px;
-  position: absolute;
-  top: 300px;
-  right: 1px;
-  color:black;
-  text-align: right;
-  padding-right: 100px;
+.sec-sub-title {
+  margin: 35px 0 45px;
 }
 
-.carousel-caption h2 {
-  font-size: 62px;
-  font-weight: 200;
+  body > section,
+  .footer {
+    padding: 70px 0;
+  }
+  .footer {
+    padding-bottom: 10px;
+  }
+
+  #mobile_sidenote {
+    display: none;
+  }
+
+  .carousel-caption {
+    display: block;
+    top: 50%;
+    margin-left: 200px;
+    position: absolute;
+    top: 300px;
+    right: 1px;
+    color:black;
+    text-align: right;
+    padding-right: 100px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 62px;
+    font-weight: 200;
+  }
+
+  .carousel-caption h2 span {
+    font-weight: 500;
+    color: #f42651;
+  }
+
+  .carousel-caption h3 {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 6px 0 20px;
+  }
+
+  .carousel-caption h3 span {
+    font-size: 50px;
+    font-weight: 300;
+    color:black ;
+    margin: 6px 0 20px;
+  }
+
+  .copyright {
+    color: #fff;
+    margin-top: 100px;
+  }
 }
 
-.carousel-caption h2 span {
-  font-weight: 500;
-  color: #f42651;
-}
-
-.carousel-caption h3 {
-  font-size: 48px;
-  font-weight: 300;
-  margin: 6px 0 20px;
-}
-
-.carousel-caption h3 span {
-  font-size: 50px;
-  font-weight: 300;
-  color:black ;
-  margin: 6px 0 20px;
-}
-}
 .carousel-caption p {
   color: black;
   font-size: 18px;
@@ -265,8 +294,6 @@ top: -8px;
 #PlayStore{
   width: 200px;
   height: 70px;
-  
-
 }
 
 
@@ -758,7 +785,7 @@ label.error {
 
 .copyright {
   color: #fff;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 #back-top {
@@ -791,4 +818,8 @@ label.error {
 
 #logo1 {
   margin-top: 170px;
+}
+
+.footer-single img{
+  margin-bottom: 20px;
 }
